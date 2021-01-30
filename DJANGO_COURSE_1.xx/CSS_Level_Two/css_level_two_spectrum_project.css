@@ -1,0 +1,31 @@
+h1{
+  font-family: 'Metal Mania', cursive;
+  text-align: center;
+
+}
+
+.blah{
+  margin: auto;
+}
+
+td{
+  height: 200px;
+  padding: 150px;
+  border: 6px solid black
+}
+
+#first{
+  background-color: #1a535c
+}
+#second{
+  background-color: #4ecdc4
+}
+#third{
+  background-color: #f7fff7
+}
+#fourth{
+  background-color: #ff6b6b
+}
+#fifth{
+  background-color: #ffe66d
+}

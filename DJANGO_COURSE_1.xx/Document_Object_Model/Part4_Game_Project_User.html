@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <!-- 1. Give it a title, viewed only on tab -->
+    <title>Tic Tac Toe</title>
+    <!-- The first link below was coped from the get bootstrap website to reference the css code on their website -->
+    <!-- The second link below references the css script for our webpage -->
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="Part4_GameCSS_Users.css">
+  </head>
+  <body>
+    <!-- Create a div for a container, then another for the Jumbotron -->
+    <!-- The container is everything on the page, the jumbotron will just be at the top, from the get boostrap page -->
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Welcome to Tic Tac Toe</h1>
+        <p>Get ready to play!</p>
+        <!-- Give the button the ID = b so we can reference it in the js -->
+        <button id="b" type="button" class="btn btn-primary btn-lg" name="button">Restart</button>
+      </div> <!--End Jumbotron here-->
+
+      <!--Inside of the container, but outside of the Jumbotron-->
+      <table align='center'>
+        <tr>
+          <td id="one"></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </table>
+
+    </div>
+
+
+    <!-- <h1>Connected!</h1> -->
+
+    <script src="Part4_Game_Users.js">
+
+    </script>
+
+  </body>
+</html>

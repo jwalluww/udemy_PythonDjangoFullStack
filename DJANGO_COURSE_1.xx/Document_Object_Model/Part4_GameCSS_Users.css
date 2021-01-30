@@ -1,0 +1,10 @@
+/* we put this under td so it aligns with our td in the html, the grid lines */
+td{
+  /* These are rather arbitrary values, but the css here is needed to view the grid lines */
+  height:150px;
+  width: 150px;
+  /* when we put an X or O in the box, we want it to be center aligned */
+  text-align: center;
+  border: 5px solid black;
+  font-size: 100px;
+}

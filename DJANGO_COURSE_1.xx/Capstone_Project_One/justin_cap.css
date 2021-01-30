@@ -1,0 +1,37 @@
+body{ /*For the lines wrapped in the body tag*/
+  font-family: 'Montserrat';
+  color: #FDFFFC; /*For the text*/
+  text-align: center; /*aligning the text to the center*/
+  background-color: #011627; /*For the dark blue background*/
+  border: 60px solid #2EC4B6; /*For the blue border*/
+  border-top: 0px; /*So the top is black too*/
+  /* border-bottom: 0px; */ /*Comment out or the bottom will be black too*/
+  margin: 0px; /*sets the margin right*/
+}
+
+p{ /*for all the paragraphs, regardless if they're in the body*/
+  color: #FDFFFC; /*color the text*/
+  padding-top: 5%; /*room on top*/
+  padding-left: 20%; /*room on the sides*/
+  padding-right: 20%;
+}
+
+.userinput{ /*For the boxes requiring user input, we created a userinput class*/
+  font-size: 1.5em; /*larger font*/
+  margin-bottom: 10px; /*spaces them out nicely*/
+}
+
+h2{
+  margin-bottom: 5%; /*spaces out the second heading nicely*/
+}
+
+#sub{ /*All for the submit button, smh*/
+  border-radius: 25px; /*larger*/
+  background: #FF9F1C; /*orange background*/
+  height: 80px; /*taller*/
+  width: 150px; /*wider*/
+  font-family: "Montserrat";
+  font-size: 1.2em;
+  margin-bottom: 4px;
+
+}
